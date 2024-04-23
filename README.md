@@ -13,7 +13,6 @@ This algorithm will take three words.
     B A L L<br>
            ----------<br>
            G A M E S<br>
-
 Output:
 It will show which letter holds which number from 0 – 9.
 For this case it is like this.
@@ -28,9 +27,7 @@ For this problem, we will define a node, which contains a letter and its corresp
 isValid(nodeList, count, word1, word2, word3)<br>
 
 Input − A list of nodes, the number of elements in the node list and three words.<br>
-
 Output − True if the sum of the value for word1 and word2 is same as word3 value.<br>
-
 Begin<br>
    m := 1<br>
    for each letter i from right to left of word1, do<br>
